@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(images/Food.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #ccc;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+  padding: 150px;
+  background-color: rgba(255, 255, 255, 0.7);
+ 
+}
+
+.home-section {
+  text-align: center;
+  margin-left: -57px;
+  margin-right: -57px;
+}
+
+.about-section {
+  text-align: center;
+  margin-left: -57px;
+  margin-right: -57px;
+  
+}
+
+.contact-section {
+  background-color: #f9f9f9;
+  margin-left: -57px;
+  margin-right: -57px;
+  
+}
+.social-media-icons a {
+  font-size: 20px;
+  margin-right: 20px;
+  
+  
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+form input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #333;
+}
